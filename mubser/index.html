@@ -1,0 +1,1429 @@
+```html
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="مُبْصِر - منظومة ذكية تجمع بين نظارة ذكية وتطبيق مخصص لمساعدة المكفوفين وضعاف البصر على التنقل وأداء المناسك باستقلالية وأمان.">
+
+    <title>مُبْصِر | Smart Assistive System</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+<!-- =========================
+     BACKGROUND
+========================= -->
+
+<div class="background-glow glow-one"></div>
+<div class="background-glow glow-two"></div>
+<div class="grid-background"></div>
+
+
+<!-- =========================
+     NAVBAR
+========================= -->
+
+<header class="navbar">
+
+    <div class="nav-container">
+
+        <a href="#home" class="logo">
+
+            <span class="logo-symbol">
+                م
+            </span>
+
+            <span class="logo-text">
+                مُبْصِر
+            </span>
+
+        </a>
+
+
+        <nav class="nav-links">
+
+            <a href="#problem">المشكلة</a>
+            <a href="#solution">الحل</a>
+            <a href="#technology">كيف تعمل؟</a>
+            <a href="#features">المميزات</a>
+            <a href="#app">التطبيق</a>
+            <a href="#impact">الأثر</a>
+
+        </nav>
+
+
+        <a href="#prototype" class="nav-button">
+            النموذج الأولي
+        </a>
+
+
+        <button
+            class="menu-button"
+            id="menuButton"
+            aria-label="فتح القائمة"
+            aria-expanded="false"
+            type="button">
+
+            ☰
+
+        </button>
+
+    </div>
+
+</header>
+
+
+<!-- =========================
+     MOBILE MENU
+========================= -->
+
+<div class="mobile-menu" id="mobileMenu">
+
+    <a href="#problem">المشكلة</a>
+    <a href="#solution">الحل</a>
+    <a href="#technology">كيف تعمل؟</a>
+    <a href="#features">المميزات</a>
+    <a href="#app">التطبيق</a>
+    <a href="#impact">الأثر</a>
+    <a href="#prototype">النموذج الأولي</a>
+
+</div>
+
+
+<main id="home">
+
+
+<!-- =========================
+     HERO
+========================= -->
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <div class="status-badge">
+
+            <span class="status-dot"></span>
+
+            منظومة ذكية • Prototype
+
+        </div>
+
+
+        <p class="hero-small-title">
+            TECHNOLOGY WITH PURPOSE
+        </p>
+
+
+        <h1>
+
+            مُبْصِر
+
+            <span>
+                يرى ما لا تراه العين.
+            </span>
+
+        </h1>
+
+
+        <p class="hero-description">
+
+            مُبْصِر ليست مجرد نظارة ذكية؛
+            إنها منظومة متكاملة تجمع بين
+            <span>Smart Glasses</span>
+            و
+            <span>Dedicated App</span>
+            والذكاء الاصطناعي لمساعدة المكفوفين
+            على التنقل وأداء المناسك باستقلالية
+            و<strong>أمان.</strong>
+
+        </p>
+
+
+        <div class="hero-buttons">
+
+            <a href="#solution" class="primary-button">
+
+                اكتشف مُبْصِر
+
+                <span>←</span>
+
+            </a>
+
+
+            <a href="#technology" class="secondary-button">
+
+                كيف تعمل؟
+
+            </a>
+
+        </div>
+
+
+        <div class="hero-stats">
+
+            <div class="hero-stat">
+
+                <strong>AI</strong>
+
+                <span>
+                    وكيل ذكي
+                </span>
+
+            </div>
+
+
+            <div class="stat-line"></div>
+
+
+            <div class="hero-stat">
+
+                <strong>LiDAR</strong>
+
+                <span>
+                    إدراك مكاني
+                </span>
+
+            </div>
+
+
+            <div class="stat-line"></div>
+
+
+            <div class="hero-stat">
+
+                <strong>APP</strong>
+
+                <span>
+                    مركز التحكم
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- HERO GLASSES -->
+
+    <div class="hero-visual">
+
+        <div class="clean-glasses-stage">
+
+            <div class="visual-ring ring-one"></div>
+
+            <div class="visual-ring ring-two"></div>
+
+            <div class="product-glow"></div>
+
+            <div class="scan-line"></div>
+
+
+            <img
+                class="hero-glasses"
+                src="images/mubsir-front.png"
+                alt="نظارة مُبْصِر الذكية">
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     INTRO STRIP
+========================= -->
+
+<section class="intro-strip">
+
+    <div class="intro-item">
+
+        <span>01</span>
+
+        <strong>إدراك</strong>
+
+        <p>
+            فهم المحيط لحظياً
+        </p>
+
+    </div>
+
+
+    <div class="intro-item">
+
+        <span>02</span>
+
+        <strong>توجيه</strong>
+
+        <p>
+            إرشاد صوتي استباقي
+        </p>
+
+    </div>
+
+
+    <div class="intro-item">
+
+        <span>03</span>
+
+        <strong>تطبيق</strong>
+
+        <p>
+            تحكم ومتابعة ذكية
+        </p>
+
+    </div>
+
+
+    <div class="intro-item">
+
+        <span>04</span>
+
+        <strong>استقلال</strong>
+
+        <p>
+            تجربة أكثر أماناً
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     PROBLEM
+========================= -->
+
+<section class="section problem-section" id="problem">
+
+    <div class="section-heading">
+
+        <span class="section-number">
+            01 — المشكلة
+        </span>
+
+        <h2>
+
+            عندما يصبح
+
+            <span>
+                الاعتماد
+            </span>
+
+            عائقاً أمام الاستقلال.
+
+        </h2>
+
+        <p>
+
+            في بيئة الحج والعمرة، يواجه المكفوفون
+            تحديات مرتبطة بالحركة والاتجاهات
+            والعوائق المتغيرة وسط الحشود.
+
+        </p>
+
+    </div>
+
+
+    <div class="problem-grid">
+
+        <article class="problem-card">
+
+            <div class="card-number">01</div>
+
+            <div class="problem-icon">👤</div>
+
+            <h3>
+                الاعتماد على مرافق
+            </h3>
+
+            <p>
+                الاعتماد على شخص آخر للتنقل
+                واتخاذ القرارات المكانية.
+            </p>
+
+        </article>
+
+
+        <article class="problem-card">
+
+            <div class="card-number">02</div>
+
+            <div class="problem-icon">⚠</div>
+
+            <h3>
+                خطر الضياع
+            </h3>
+
+            <p>
+                صعوبة تحديد الاتجاهات والموقع
+                وسط الحشود المتحركة.
+            </p>
+
+        </article>
+
+
+        <article class="problem-card">
+
+            <div class="card-number">03</div>
+
+            <div class="problem-icon">◈</div>
+
+            <h3>
+                عوائق متغيرة
+            </h3>
+
+            <p>
+                صعوبة إدراك العوائق والمسافات
+                المتغيرة في الوقت المناسب.
+            </p>
+
+        </article>
+
+
+        <article class="problem-card">
+
+            <div class="card-number">04</div>
+
+            <div class="problem-icon">◎</div>
+
+            <h3>
+                تيه مكاني
+            </h3>
+
+            <p>
+                فقدان الإحساس بالمكان والمسافة
+                قد يزيد الضغط أثناء أداء المناسك.
+            </p>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     SOLUTION
+========================= -->
+
+<section class="section solution-section" id="solution">
+
+    <div class="solution-image">
+
+        <div class="image-frame">
+
+            <img
+                src="images/mubsir-side.png"
+                alt="النموذج الأولي لنظارة مُبْصِر">
+
+            <div class="image-overlay"></div>
+
+            <div class="prototype-label">
+
+                <span></span>
+
+                MUBSIR PROTOTYPE
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="solution-content">
+
+        <span class="section-number">
+            02 — الحل
+        </span>
+
+        <h2>
+
+            ليست مجرد نظارة.
+
+            <span>
+                إنها منظومة.
+            </span>
+
+        </h2>
+
+
+        <p class="solution-text">
+
+            مُبْصِر تجمع بين نظارة ذكية وتطبيق
+            مخصص يعملان معاً كنظام واحد.
+            تستشعر النظارة البيئة المحيطة،
+            بينما يساهم التطبيق في إدارة البيانات
+            والتنبيهات والإعدادات وتجربة المستخدم.
+
+        </p>
+
+
+        <div class="solution-points">
+
+            <div class="solution-point">
+
+                <span class="point-icon">✓</span>
+
+                <div>
+
+                    <strong>
+                        نظارة ذكية للإدراك
+                    </strong>
+
+                    <p>
+                        كاميرات وLiDAR ومستشعرات لفهم البيئة المحيطة.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="solution-point">
+
+                <span class="point-icon">✓</span>
+
+                <div>
+
+                    <strong>
+                        تطبيق مخصص
+                    </strong>
+
+                    <p>
+                        مركز للتحكم والتخصيص والمتابعة وإدارة التنبيهات.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="solution-point">
+
+                <span class="point-icon">✓</span>
+
+                <div>
+
+                    <strong>
+                        ذكاء اصطناعي استباقي
+                    </strong>
+
+                    <p>
+                        تحليل السياق وتقديم المساعدة في الوقت المناسب.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     TECHNOLOGY
+========================= -->
+
+<section class="section technology-section" id="technology">
+
+    <div class="section-heading centered">
+
+        <span class="section-number">
+            03 — كيف تعمل؟
+        </span>
+
+        <h2>
+
+            من الإدراك إلى
+
+            <span>
+                المساعدة.
+            </span>
+
+        </h2>
+
+        <p>
+
+            منظومة مترابطة تحول البيانات من البيئة
+            المحيطة إلى معلومات ومساعدة قابلة للاستخدام.
+
+        </p>
+
+    </div>
+
+
+    <div class="architecture">
+
+        <div class="tech-node">
+
+            <div class="node-icon">
+                ◉
+            </div>
+
+            <span>01</span>
+
+            <h3>Sensors</h3>
+
+            <p>
+                LiDAR + Cameras
+            </p>
+
+        </div>
+
+
+        <div class="tech-arrow">
+            ←
+        </div>
+
+
+        <div class="tech-node active">
+
+            <div class="node-icon">
+                AI
+            </div>
+
+            <span>02</span>
+
+            <h3>Edge AI</h3>
+
+            <p>
+                Real-time Processing
+            </p>
+
+        </div>
+
+
+        <div class="tech-arrow">
+            ←
+        </div>
+
+
+        <div class="tech-node">
+
+            <div class="node-icon">
+                ◇
+            </div>
+
+            <span>03</span>
+
+            <h3>AI Agent</h3>
+
+            <p>
+                Decision Making
+            </p>
+
+        </div>
+
+
+        <div class="tech-arrow">
+            ←
+        </div>
+
+
+        <div class="tech-node app-node">
+
+            <div class="node-icon">
+                ◫
+            </div>
+
+            <span>04</span>
+
+            <h3>Mobile App</h3>
+
+            <p>
+                Control + Monitoring
+            </p>
+
+        </div>
+
+
+        <div class="tech-arrow">
+            ←
+        </div>
+
+
+        <div class="tech-node">
+
+            <div class="node-icon">
+                ◖
+            </div>
+
+            <span>05</span>
+
+            <h3>Voice</h3>
+
+            <p>
+                Bone Conduction
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     FEATURES
+========================= -->
+
+<section class="section features-section" id="features">
+
+    <div class="section-heading">
+
+        <span class="section-number">
+            04 — القدرات
+        </span>
+
+        <h2>
+
+            أكثر من مجرد
+
+            <span>
+                رؤية.
+            </span>
+
+        </h2>
+
+    </div>
+
+
+    <div class="features-grid">
+
+        <article class="feature-card large">
+
+            <div class="feature-top">
+
+                <span class="feature-tag">
+                    COMPUTER VISION
+                </span>
+
+                <span class="feature-icon">
+                    ◉
+                </span>
+
+            </div>
+
+            <h3>
+                فهم المحيط
+            </h3>
+
+            <p>
+                اكتشاف العوائق والأشخاص والمسافات
+                وتحليل البيئة المحيطة لحظياً.
+            </p>
+
+            <div class="feature-visual">
+
+                <div class="radar"></div>
+
+                <div class="radar-dot dot-one"></div>
+                <div class="radar-dot dot-two"></div>
+                <div class="radar-dot dot-three"></div>
+
+            </div>
+
+        </article>
+
+
+        <article class="feature-card">
+
+            <span class="feature-tag">
+                AI AGENT
+            </span>
+
+            <span class="feature-icon">
+                ✦
+            </span>
+
+            <h3>
+                وكيل ذكي استباقي
+            </h3>
+
+            <p>
+                يحلل الموقف ويقدم التنبيه
+                والتوجيه المناسب قبل الحاجة إليه.
+            </p>
+
+        </article>
+
+
+        <article class="feature-card">
+
+            <span class="feature-tag">
+                RITUAL ASSISTANT
+            </span>
+
+            <span class="feature-icon">
+                ۞
+            </span>
+
+            <h3>
+                عد الأشواط
+            </h3>
+
+            <p>
+                يساعد المستخدم على متابعة عدد الأشواط
+                وتقديم التنبيهات المرتبطة بالمناسك.
+            </p>
+
+        </article>
+
+
+        <article class="feature-card">
+
+            <span class="feature-tag">
+                MOBILE APP
+            </span>
+
+            <span class="feature-icon">
+                ◫
+            </span>
+
+            <h3>
+                تطبيق مُبْصِر
+            </h3>
+
+            <p>
+                تطبيق مخصص متصل بالنظارة لإدارة
+                الإعدادات والتنبيهات والمتابعة.
+            </p>
+
+        </article>
+
+
+        <article class="feature-card">
+
+            <span class="feature-tag">
+                VOICE
+            </span>
+
+            <span class="feature-icon">
+                ≋
+            </span>
+
+            <h3>
+                توجيه صوتي
+            </h3>
+
+            <p>
+                تعليمات صوتية عبر التوصيل العظمي
+                مع إبقاء الوعي بالأصوات المحيطة.
+            </p>
+
+        </article>
+
+
+        <article class="feature-card">
+
+            <span class="feature-tag">
+                EDGE AI
+            </span>
+
+            <span class="feature-icon">
+                ◌
+            </span>
+
+            <h3>
+                معالجة طرفية
+            </h3>
+
+            <p>
+                معالجة محلية للبيانات لتحقيق
+                سرعة أكبر وتقليل الاعتماد على الإنترنت.
+            </p>
+
+        </article>
+
+
+        <article class="feature-card">
+
+            <span class="feature-tag">
+                KNOWLEDGE
+            </span>
+
+            <span class="feature-icon">
+                ?
+            </span>
+
+            <h3>
+                مساعد معرفي
+            </h3>
+
+            <p>
+                واجهة ذكية للإجابة عن الاستفسارات
+                والإرشادات المتعلقة بالمناسك.
+            </p>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     APP SECTION
+========================= -->
+
+<section class="section app-section" id="app">
+
+    <div class="app-content">
+
+        <span class="section-number">
+            05 — التطبيق
+        </span>
+
+        <h2>
+
+            مركز التحكم
+
+            <span>
+                في تجربة مُبْصِر.
+            </span>
+
+        </h2>
+
+        <p class="app-description">
+
+            التطبيق المخصص ليس إضافة منفصلة؛
+            بل جزء أساسي من منظومة مُبْصِر.
+            يتصل بالنظارة ليمنح المستخدم تجربة
+            أكثر وضوحاً وتحكماً وتخصيصاً.
+
+        </p>
+
+
+        <div class="app-points">
+
+            <div class="app-point">
+
+                <div class="app-point-icon">
+                    ◉
+                </div>
+
+                <div>
+
+                    <strong>
+                        اتصال بالنظارة
+                    </strong>
+
+                    <p>
+                        استقبال البيانات والحالة من الجهاز المتصل.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="app-point">
+
+                <div class="app-point-icon">
+                    ⚙
+                </div>
+
+                <div>
+
+                    <strong>
+                        تخصيص التجربة
+                    </strong>
+
+                    <p>
+                        التحكم في التنبيهات والإعدادات حسب احتياج المستخدم.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="app-point">
+
+                <div class="app-point-icon">
+                    ◎
+                </div>
+
+                <div>
+
+                    <strong>
+                        متابعة ومساعدة
+                    </strong>
+
+                    <p>
+                        عرض المعلومات المهمة وإتاحة المتابعة عند الحاجة.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- PHONE MOCKUP -->
+
+    <div class="app-interface">
+
+        <div class="phone-frame">
+
+            <div class="phone-camera"></div>
+
+            <div class="phone-screen">
+
+                <img
+                    src="images/app-interface.png"
+                    alt="واجهة تطبيق مُبْصِر"
+                    loading="lazy">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     SMART AGENT
+========================= -->
+
+<section class="agent-section">
+
+    <div class="agent-content">
+
+        <span class="section-number">
+            06 — الذكاء
+        </span>
+
+        <h2>
+
+            ليس مجرد مساعد.
+
+            <br>
+
+            <span>
+                بل وكيل يفكر معك.
+            </span>
+
+        </h2>
+
+        <p>
+
+            يفهم السياق، يراقب المحيط، يحلل المخاطر
+            ويتصرف استباقياً لمساعدة المستخدم في الوقت المناسب.
+
+        </p>
+
+    </div>
+
+
+    <div class="agent-terminal">
+
+        <div class="terminal-header">
+
+            <div class="terminal-dots">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+
+            <span>
+                MUBSIR / AI AGENT
+            </span>
+
+            <div class="terminal-status">
+                ● ONLINE
+            </div>
+
+        </div>
+
+
+        <div class="terminal-body">
+
+            <div class="terminal-line">
+
+                <span>&gt;</span>
+
+                scanning environment...
+
+            </div>
+
+
+            <div class="terminal-line success">
+
+                <span>✓</span>
+
+                obstacle detected — 2.4m
+
+            </div>
+
+
+            <div class="terminal-line">
+
+                <span>&gt;</span>
+
+                analyzing route...
+
+            </div>
+
+
+            <div class="terminal-line success">
+
+                <span>✓</span>
+
+                safer path identified
+
+            </div>
+
+
+            <div class="terminal-line">
+
+                <span>&gt;</span>
+
+                syncing with mobile app...
+
+            </div>
+
+
+            <div class="terminal-line success">
+
+                <span>✓</span>
+
+                app connected
+
+            </div>
+
+
+            <div class="terminal-line ai-message">
+
+                <span>
+                    AI
+                </span>
+
+                انتبه، يوجد عائق أمامك.
+                اتجه قليلاً إلى اليمين.
+
+            </div>
+
+
+            <div class="cursor">
+                █
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     IMPACT
+========================= -->
+
+<section class="section impact-section" id="impact">
+
+    <div class="section-heading centered">
+
+        <span class="section-number">
+            07 — الأثر
+        </span>
+
+        <h2>
+
+            التقنية من أجل
+
+            <span>
+                الكرامة والاستقلال.
+            </span>
+
+        </h2>
+
+        <p>
+
+            الهدف ليس استبدال الإنسان،
+            بل تمكينه من الاعتماد على نفسه.
+
+        </p>
+
+    </div>
+
+
+    <div class="impact-grid">
+
+        <div class="impact-item">
+
+            <strong
+                class="counter"
+                data-target="100">
+
+                0
+
+            </strong>
+
+            <span>%</span>
+
+            <p>
+                تجربة أكثر استقلالية
+            </p>
+
+        </div>
+
+
+        <div class="impact-item">
+
+            <strong>
+                AI
+            </strong>
+
+            <p>
+                مساعدة ذكية
+                في الوقت الحقيقي
+            </p>
+
+        </div>
+
+
+        <div class="impact-item">
+
+            <strong>
+                APP
+            </strong>
+
+            <p>
+                تحكم وتخصيص
+                ومتابعة
+            </p>
+
+        </div>
+
+
+        <div class="impact-item">
+
+            <strong>
+                EDGE
+            </strong>
+
+            <p>
+                سرعة وخصوصية
+                ومعالجة محلية
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     PROTOTYPE
+========================= -->
+
+<section class="prototype-section" id="prototype">
+
+    <div class="prototype-inner">
+
+        <div class="prototype-text">
+
+            <span class="section-number">
+                PROTOTYPE
+            </span>
+
+
+            <h2>
+
+                فكرة اليوم.
+
+                <br>
+
+                <span>
+                    استقلال الغد.
+                </span>
+
+            </h2>
+
+
+            <p>
+
+                مُبْصِر في مرحلته الحالية نموذج أولي
+                لمنظومة متكاملة تجمع بين النظارة الذكية
+                والتطبيق المخصص والذكاء الاصطناعي،
+                بهدف بناء تجربة أكثر أماناً واستقلالية
+                للحجاج والمعتمرين المكفوفين.
+
+            </p>
+
+
+            <div class="prototype-tags">
+
+                <span>SMART GLASSES</span>
+                <span>MOBILE APP</span>
+                <span>AI / DATA</span>
+                <span>HARDWARE</span>
+                <span>EDGE AI</span>
+
+            </div>
+
+        </div>
+
+
+        <div class="prototype-image">
+
+            <img
+                src="images/side-mubser.png" 
+                alt="Mubsir Smart Glasses"
+                loading="lazy">
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     FOOTER
+========================= -->
+
+<footer>
+
+    <div class="footer-main">
+
+        <div class="footer-brand">
+
+            <div class="logo">
+
+                <span class="logo-symbol">
+                    م
+                </span>
+
+                <span class="logo-text">
+                    مُبْصِر
+                </span>
+
+            </div>
+
+
+            <p>
+
+                لأن الاستقلال حق،
+                ولأن التقنية يجب أن تكون في خدمة الإنسان.
+
+            </p>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <div>
+
+                <strong>
+                    المشروع
+                </strong>
+
+                <a href="#problem">
+                    المشكلة
+                </a>
+
+                <a href="#solution">
+                    الحل
+                </a>
+
+                <a href="#features">
+                    المميزات
+                </a>
+
+                <a href="#app">
+                    التطبيق
+                </a>
+
+            </div>
+
+
+            <div>
+
+                <strong>
+                    التقنية
+                </strong>
+
+                <a href="#technology">
+                    Architecture
+                </a>
+
+                <a href="#technology">
+                    Edge AI
+                </a>
+
+                <a href="#technology">
+                    AI Agent
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <span>
+            © 2026 MUBSIR — Smart Technology for Human Independence
+        </span>
+
+        <span>
+            Prototype
+        </span>
+
+    </div>
+
+</footer>
+
+
+</main>
+
+
+<!-- =========================
+     JAVASCRIPT
+========================= -->
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
